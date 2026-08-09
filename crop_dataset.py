@@ -2,19 +2,19 @@ import os
 from pathlib import Path
 from PIL import Image, ImageOps
 
-# ---------------- AYARLAR ----------------
-DATASET_ROOT = Path(".")                 # data.yaml'ın olduğu klasör
-OUTPUT_ROOT = Path("cropped_dataset")     # çıktı klasörü
-OUTPUT_SIZE = 224                         # resize sonrası kare boyut (px)
-PADDING_RATIO = 0.08                      # bbox'a eklenecek ekstra pay (%8)
-MIN_CROP_SIZE = 20                        # bundan küçük crop'lar atlanır
+
+DATASET_ROOT = Path(".")                 
+OUTPUT_ROOT = Path("cropped_dataset")     
+OUTPUT_SIZE = 224                        
+PADDING_RATIO = 0.08                      
+MIN_CROP_SIZE = 20                       
 SPLITS = ["train", "valid", "test"]
 CLASS_NAMES = [
     "demoman", "engineer", "heavy", "medic", "pyro",
     "scout", "sniper", "soldier", "spy",
 ]
 IMG_EXTENSIONS = [".jpg", ".jpeg", ".png"]
-# ------------------------------------------
+
 
 
 def letterbox_resize(img: Image.Image, size: int) -> Image.Image:
