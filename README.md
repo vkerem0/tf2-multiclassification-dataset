@@ -1,7 +1,7 @@
 # TF2 Class Classifier Dataset
 
 An image classification dataset for identifying Team Fortress 2 character
-classes (9 classes), with exactly one character per image.
+classes (9 classes), with (probably) one character per image.
 
 ## Source
 This dataset is derived from the [TF2 object detection dataset on Roboflow](https://universe.roboflow.com/kerem-ozturk/team-fortress-2-classes-nuo4m-oeuya)
