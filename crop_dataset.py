@@ -1,19 +1,3 @@
-"""
-YOLO formatındaki TF2 object detection datasetini,
-her görüntüde tek sınıf olan bir classification datasetine çevirir.
-
-Kullanım:
-    cd tf2dataset          # data.yaml'ın olduğu klasöre gir
-    python crop_dataset.py
-
-Çıktı:
-    cropped_dataset/train/<class_name>/xxx.jpg
-    cropped_dataset/valid/<class_name>/xxx.jpg
-    cropped_dataset/test/<class_name>/xxx.jpg
-
-Bu klasör direkt torchvision.datasets.ImageFolder ile okunabilir.
-"""
-
 import os
 from pathlib import Path
 from PIL import Image, ImageOps
