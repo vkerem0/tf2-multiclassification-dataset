@@ -33,4 +33,4 @@ val_ds   = datasets.ImageFolder("cropped_dataset/valid", transform=transform)
 ## How it was generated
 Original object detection annotations (YOLO format) were used to crop each
 labeled character out of its source screenshot, pad it slightly, and resize
-it with letterboxing to 224x224.
+it with letterboxing to 224x224. See crop_dataset.py for the full script.
