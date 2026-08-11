@@ -15,9 +15,9 @@ This project is for educational/research purposes only, not for commercial
 use, and is not affiliated with or endorsed by Valve Corporation.
 
 ## Dataset Stats
-- Total images: 929
+- Total images: 2629
 - Classes: 9
-- Split: 643 train / 184 valid / 102 test
+- Split: 1829 train / 522 valid / 278 test
 
 ## Structure
 cropped_dataset/{train,valid,test}/{class_name}/*.jpg
