@@ -9,7 +9,7 @@ classes (9 classes), with (probably) one character per image.
 
 ## Source
 This dataset is derived from the [TF2 object detection dataset on Roboflow](https://universe.roboflow.com/kerem-ozturk/team-fortress-2-classes-nuo4m-oeuya)
-by cropping each bounding box into its own image (see `crop_dataset.py`).
+by cropping each bounding box into its own image.
 Images are screenshots from Team Fortress 2 (Valve Corporation game content).
 This project is for educational/research purposes only, not for commercial
 use, and is not affiliated with or endorsed by Valve Corporation.
